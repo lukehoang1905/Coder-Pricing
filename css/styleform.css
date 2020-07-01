@@ -8,3 +8,33 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+.left {
+    border: 1px solid red;
+}
+
+.right {
+    border: 1px solid red;
+}
+
+label {
+    font-weight: bold;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.checkbox {
+    border: 1px solid yellow;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.custom-control-label {
+    font-weight: normal;
+}
+
+.form-check-label {
+    font-weight: normal;
+}

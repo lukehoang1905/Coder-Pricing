@@ -18,7 +18,95 @@
         <p class="text-center"> Below is an example of forms</p>
     </section>
     <section>
-        asd
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 left">
+                    <h1 class="text-left">Billing Adress</h1>
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="input-group">First Name</label>
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                                <label for="input-group">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="input-group"> Username</label>
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="validatedInputGroupPrepend">@</span>
+                                </div>
+                                <input type="text" class="form-control" aria-describedby="validatedInputGroupPrepend" required placeholder="Username">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email</label>
+                                <input type="text" class="form-control" id="formGroupInputEmail" placeholder="your_email@xxx.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAdress">Address</label>
+                                <input type="text" class="form-control" id="formGroupInputAdress" placeholder="123 Main Street">
+                            </div>
+                            <div class=" form-group ">
+                                <label for="inputAddress2 ">Address 2</label>
+                                <input type="text " class="form-control " id="formGroupInputEmail " placeholder="Apartment or Suite ">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputState">State</label>
+                                    <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <label for="inputZip">Zip</label>
+                                    <input type="text" class="form-control" id="inputZip">
+                                </div>
+                            </div>
+                            <div class="container checkbox">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Shipping address is the same as my billing address</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck1">why is this not check</label>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 class="text-left">Payment</h1>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Credit Card
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              Debit Card
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                              Paypal
+                            </label>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-sm-4 right ">right side</div>
+            </div>
     </section>
 
 </body>
