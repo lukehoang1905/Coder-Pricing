@@ -9,14 +9,6 @@ section {
     align-items: center;
 }
 
-.left {
-    border: 1px solid red;
-}
-
-.right {
-    border: 1px solid red;
-}
-
 label {
     font-weight: bold;
 }
@@ -26,9 +18,7 @@ label {
 }
 
 .checkbox {
-    border: 1px solid yellow;
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 .custom-control-label {
@@ -37,4 +27,12 @@ label {
 
 .form-check-label {
     font-weight: normal;
+}
+
+.row {
+    padding-top: 5%;
+}
+
+.bigbutton {
+    padding: 10%;
 }
